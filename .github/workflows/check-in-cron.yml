@@ -2,7 +2,7 @@ name: Cron for Veek check-in
 
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/60 * * * *'
 
 jobs:
   check-in:
